@@ -1,3 +1,49 @@
+ //ДЗ Урок-7
+// Решил поумничать. но не удается получить числа из формы.
+// Прошу помощи.
+// Через +promt эта задача решается легко
+// Да и текущий скрипт нужно переписать
+// Но отстаю от лекция, прошу простить на первый раз :))
+
+ 
+
+let sum = document.querySelector(".slogenie")
+function one () {
+    let a = +(document.querySelector (".numbera"));
+    let b = +(document.querySelector (".numberb"));
+    let c = a+b
+    document.querySelector(".exit").innerHTML= c;
+}
+sum.onclick = one
+
+let vuc = document.querySelector(".vuchet")
+function two () {
+    let a = +(document.querySelector (".numbera"));
+    let b = +(document.querySelector (".numberb"));
+    let c = a-b
+    document.querySelector(".exit").innerHTML= c;
+}
+vuc.onclick = two
+
+let umn = document.querySelector(".umnoj")
+function three () {
+    let a = +(document.querySelector (".numbera"));
+    let b = +(document.querySelector (".numberb"));
+    let c = a*b
+    document.querySelector(".exit").innerHTML= (c);
+}
+umn.onclick = umn
+
+let del = document.querySelector(".delenie")
+function four () {
+    let a = +(document.querySelector (".numbera"));
+    let b = +(document.querySelector (".numberb"));
+    let c = a/b
+    document.querySelector(".exit").innerHTML= (c);
+}
+del.onclick = four
+
+
 //Урок - 7
 
 //  // ключевое слово название тело функции
@@ -12,21 +58,6 @@
 //     console.log(1234567890);
 //  }
 //  fun.onclick = one;
- 
-let numa = document.querySelector (".numbera");
-    console.log(numa);
-    function one(numa) {
-       console.log(numa);
-       //console.log(numberb);
-       
-        // document.getElementById(summ).innerHTML= (numbera+numberb)
-       // return numbera+numberb
-    }
-fun.onclick = one;
-
-// function Borch() {
-    
-// }
 
 // let a = 8
 // let b = 9
